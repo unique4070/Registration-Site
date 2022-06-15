@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+    background-image: url(images/bg-intro-desktop.png);
+}
+
+main{
+    margin: 120px 150px 100px 100px;
+    display: flex;
+}
+
+.main-content{
+    margin :140px 50px 0 60px;
+}
+#heading{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+p{
+    color: #fff;
+    text-align: left;
+    font-size: medium;
+    font-weight: 400;
+    margin-right: 20px;
+}
+
+.text{
+    padding:15px 30px 15px 30px ;
+    background-color:  hsl(248, 32%, 49%) ;
+    text-align: center;
+    font-size: medium;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+span{
+    color:red;
+    font-size: small;
+    font-weight: 500;
+}
+.button-text{
+    color: rgba(0, 0, 255, 0.200);
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+ form{
+     background-color: #fff;
+     text-align: center;
+     border-radius: 10px;
+     margin-top: 10px;
+     padding: 20px 10px 20px 10px;
+ }
+ input{
+     width: 450px;
+     height: 50px;
+     border-radius: 5px;
+     border: 1px solid hsl(246, 25%,77%);
+     margin-top:15px;
+ }
+
+  button{
+      background-color: hsl(154, 59%, 51%);
+      height: 40px;
+      width:450px;
+      border-radius: 10px;
+      border-color: white;
+      border-style: none;
+      margin-top: 10px;
+      color: #fff;
+      font-family: 'Poppins',sans-serif;
+      font-size: medium;
+  }
+  ::placeholder{
+      padding-left: 40px;
+      color: hsl(247, 10%, 26%);
+      font-family: 'Poppins',sans-serif;
+      font-weight: 600;
+  }
+
+  @media (max-width:760px){
+      body{
+          background-image: url(images/bg-intro-mobile.png);
+      }
+      main{
+          display: flex;
+          flex-direction: column;
+          margin: 0%;
+      }
+      .main-content{
+          margin: 90px 0 0;
+          text-align: center;
+      }
+      #heading{
+          font-size: 40px;
+          margin: 0 40px 20px 40px;
+      }
+      p{
+          margin: 0 40px 50px 40px;
+          line-height: 2;
+      }
+      .form-content{
+          margin: 40px;
+      }
+      .ads{
+          width: 320px;
+          height: 75px;
+          margin: 0 50px 20px 0px;
+      }
+      .text{
+          padding: 20 80;
+      }
+      input{
+          width: 290px;
+      }
+      ::placeholder{
+          padding: 20px;
+          font-size: 10px;
+      }
+      button{
+          width: 290px;
+          font-size: 12px;
+      }
+      .button-text{
+          font-size: 12px;
+          padding: 15px 40px 20px 40px;
+      }
+
+
+
+
+
+
+
+
+
+  }
